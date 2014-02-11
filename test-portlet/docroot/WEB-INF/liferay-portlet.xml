@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>test</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css>
+		<header-portlet-css>/css/sb-admin.css</header-portlet-css>
+		<header-portlet-css>/font-awesome/css/font-awesome.min.css</header-portlet-css>
+		<header-portlet-css>/css/morris-0.4.3.min.css</header-portlet-css>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<header-portlet-css>/css/app.css</header-portlet-css>
+		<footer-portlet-javascript>/js/jquery-1.10.2.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/morris/chart-data-morris.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/tablesorter/jquery.tablesorter.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/tablesorter/tables.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>test-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>new</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css>
+		<header-portlet-css>/css/morris-0.4.3.min.css</header-portlet-css>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<header-portlet-css>/css/sb-admin.css</header-portlet-css>
+		<header-portlet-css>/css/app.css</header-portlet-css>
+		<footer-portlet-javascript>/js/jquery-1.10.2.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/morris/chart-data-morris.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/tablesorter/jquery.tablesorter.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/tablesorter/tables.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>wrapper-quotation</css-class-wrapper>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>

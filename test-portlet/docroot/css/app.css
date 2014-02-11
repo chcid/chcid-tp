@@ -1,0 +1,42 @@
+#page-wrapper {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.collapse.navbar-collapse.navbar-ex1-collapse {
+    background-color: skyblue;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  background-color: skyblue;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #45A4CB;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #52C3F2;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #45A4CB;
+}
+
+body {
+font-size: 20px;
+font-weight:bold;
+}
+
+.navbar-brand {
+font-size: 28px;
+font-weight:bold;
+}
