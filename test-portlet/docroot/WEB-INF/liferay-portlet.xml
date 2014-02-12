@@ -33,7 +33,7 @@
 		<footer-portlet-javascript>/js/tablesorter/jquery.tablesorter.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/tablesorter/tables.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
-		<css-class-wrapper>wrapper-quotation</css-class-wrapper>
+		<css-class-wrapper>new-portlet</css-class-wrapper>
 	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
