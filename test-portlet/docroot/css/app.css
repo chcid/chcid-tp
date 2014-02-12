@@ -1,10 +1,33 @@
+.side-nav {
+	margin-left: -225px;
+	left: 0px;
+	top: 0px;
+}
+
+.aui .nav>li>a:hover,.aui .nav>li>a:focus {
+	text-decoration: none;
+	background-color: #52C3F2;
+}
+
+.nav>a:hover,.nav>.active>a,.nav>.active>a:hover,.nav>.active>a:focus {
+	color: #ffffff;
+	background-color: #45A4CB;
+}
+
+.nav>li>a:hover,.nav>li>a:focus {
+	color: #ffffff;
+	background-color: #52C3F2;
+}
+
 #menuUl {
 	position: relative;
-	left: -407px;
-	top: 50px;
 	width: 150px;
 	overflow-x: hidden;
 	height: auto;
+	float: initial;
+	background-color: skyblue;
+	color: #99999;
+	font: bold;
 }
 
 .navbar1.navbar-inverse1 {
@@ -14,9 +37,11 @@
 }
 
 #page-wrapper {
+	position: relative;
+	width: auto;
 	overflow: hidden;
 	overflow-x: auto;
-	width: 90%;
+	width: 80%;
 }
 
 .collapse1.navbar-collapse1.navbar-ex1-collapse1 {
